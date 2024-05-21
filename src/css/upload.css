@@ -1,0 +1,64 @@
+.upload-page{
+  padding: 40px 100px;
+}
+.form-add_art{
+  margin-top: 60px;
+}
+.input-row {
+  margin: 10px 0px 30px 30px;
+  display: flex;
+
+}
+
+.input-row input {
+  margin-right: 10px;
+}
+
+.ttt {
+  width: 700px;
+  height: 50px;
+  transition: 0.2s;
+}
+.nbv {
+  width: 345px;
+  height: 50px;
+}
+
+.plo {
+  margin: 50px 0 0 30px;
+  font-size: 20px;
+}
+.drag {
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: solid #f2f2f2;
+  margin: 20px 0 0 30px;
+}
+.draghh {
+  margin: 0px 0 20px 20px;
+  font-size: 25px;
+}
+.suggest {
+  margin: 10px 0 0 10px;
+  color: #707070;
+  font-size: 14px;
+}
+.peeee {
+  margin: 10px 0 0 30px;
+  color: #707070;
+}
+.menu-right{
+  margin-top: 40px;
+}
+.menu-right-button{
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.menu-right-button:hover{
+  background-color: #000000;
+  color: #ffff;
+}

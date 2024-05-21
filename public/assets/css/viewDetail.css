@@ -1,0 +1,77 @@
+.ViewDetail-page{
+     padding: 100px 100px;
+}
+.top-viewPage{
+     display: grid;
+     grid-template-columns: 60% 40%;
+     padding-bottom: 60px;
+     border-bottom: 2px solid #f2f2f2;
+}
+.img-viewRoom{
+     width: 700px;
+     height: 500px;
+}
+.img-viewRoom img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.info-viewRoom h2{
+     margin-top: 100px;
+     font-size: 50px;
+     font-family: "Playfair Display", serif;
+}
+.info-viewRoom h4{
+     margin-top: 0px;
+     font-size: 20px;
+     font-weight: 500;
+}
+.main-viewPage{
+     margin-top: 5rem;
+     font-size: 18px;
+     line-height: 25px;
+}
+
+.artworkViewRoom{
+     display: flex;
+     flex-direction: column;
+     margin: 3rem 0 5rem 10rem;
+}
+.view-all{
+     margin-top: 10rem;
+     padding: 10px 15px;
+     background-color: black;
+     color: #fff;
+     width: 150px;
+     border-radius: 22px;
+     text-align: center;
+     cursor: pointer;
+     align-items: center;
+}
+.view-all:hover{
+     background-color: #e1dede;
+     color: black;
+}
+.view-featureArt{
+     margin-top: 3rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+}
+.art-demo_viewRoom{
+     margin-top: 4rem;
+}
+.img-art_demo{
+     padding: 10rem;
+     width: 30rem;
+     height: 32rem;
+     background-color: #f2f2f2;
+}
+.img-art_demo img{
+     width: 100%;
+     height: 100%;
+}
+.basic-info{
+     margin-top: 10px;
+}

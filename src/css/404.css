@@ -1,0 +1,17 @@
+.not-found{
+     display: flex;
+     flex-direction: column;
+     padding: 100px 300px;
+     height: 10rem;
+}
+.link-home{
+     text-align: center;
+background-color: black;
+     color: #ffff;
+     padding: 15px 25px;
+     width: 300px;
+     border-radius: 30px;
+}
+.link-home:hover{
+     background-color: rgb(66, 65, 65);
+}

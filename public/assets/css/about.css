@@ -1,0 +1,101 @@
+.About-page{
+  height: 150vh;
+}
+.aboutUs-section{
+     background-color: #f3f3f3;
+     padding: 10rem 70px 20px 70px;
+     display: grid;
+     grid-template-columns: 1.5fr 1fr;
+     column-gap: 40px;
+}
+.title-about_section{
+     display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  font-size: 100px;
+  line-height: 90px;
+  color: #000000;
+  letter-spacing: -7.5px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: left;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  max-height: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  text-align: center;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.img-about{
+     width: 540px;
+     height: 665px;
+}
+.img-about .imgabout{
+     width: 100%;
+     height: 100%;
+     box-shadow: 1.25rem 1.375rem 4.75rem 0 rgba(0,0,0,.42)!important;
+
+}
+.content-about_section{
+     margin-top: 100px;
+}
+.content-about_section .peoia, 
+.main-staff_section .peoia{
+     font-size: 25px;
+     font-weight: 500;
+
+}
+.more-info{
+     margin-top: 30px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 40px;
+}
+.more-info .repdip{
+     margin-top: 20px;
+     font-size: 18px;
+     line-height: 25px;
+}
+.staff-img{
+     width: 1250px;
+      height: 500px;
+      margin-top: 70px;
+      margin-bottom: 40px;
+}
+.staff-img .imgstaff{
+     object-fit:cover;
+     width: 100%;
+     height: 100%;
+}
+.staff-section{
+     padding: 100px 70px 20px 70px;
+}
+.main-staff_section .hdgbad{
+     font-size: 16px;
+     margin-top: 20px;
+}
+.hatbabe{
+     font-family: 'Poppins';
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.15em;
+    line-height: 1.25;
+    color:rgba(184, 157, 79, 1);
+}
+.more-info .peoan{
+     line-height: 1.75;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+.main-staff_section .peoia{
+     margin-top: 50px;
+}

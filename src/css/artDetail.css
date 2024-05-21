@@ -1,0 +1,368 @@
+
+.ArtDetail-page{
+     padding: 70px 90px;
+     max-height:30rem ;
+     display: flex;
+     flex-direction: column;}
+a {
+  text-decoration: none;
+}
+.about-artwork{
+  max-height: auto;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 30px;
+     margin-left: 40px;
+     margin-bottom: 150px;
+}
+.info-art_section{
+     width:  37rem;
+     height: 50rem;
+}
+.img-art{
+     display: grid;
+     grid-template-rows: 95% 5%;
+     margin-left: 20px;
+     height: 550px;
+}
+.info-art_section{
+  width:  37rem;
+  height: 50rem;
+}
+.img-art{
+  display: grid;
+  grid-template-rows: 95% 5%;
+  margin-left: 20px;
+  width: 650px;
+  height: 400px;
+
+}
+
+.img-art .anhgb{
+  width: 100%;
+  height: 100%;
+  box-shadow: 3px 3px 6px 0 rgba(0,0,0,.42);
+   object-fit: cover;
+}
+.otherServices{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13rem;
+}
+.otherServices .bonhai{
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 2px;
+}
+.otherServices .bonhai:hover{
+  color: rgb(184, 162, 17);
+}
+.otherServices .bonhai i{
+  margin-right: 5px;
+}
+.about_art-detail{
+  margin-top: 50px;
+}
+.tablinks{
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #8e8e8e;
+}
+.content-tab_art,
+.artist-section{
+  
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 1px solid #d7d5d5;
+  border-radius: 1px;
+}
+.tabcontent dl, .content_exhibition dl {
+     margin-bottom: 10px;
+     display: flex;
+     align-items: center;
+   }
+   
+   .tabcontent dt, .content_exhibition dt {
+     font-weight: 600;
+     flex: 0 0 150px; 
+   }
+   
+   .tabcontent dd , .content_exhibition dd{
+     font-size: 14px;
+     margin-left: 10rem;
+     flex: 1; 
+     line-height: 22px;
+   }
+   .artist-section{
+     padding: 25px 30px;
+     display: flex;
+     justify-content: space-between;
+   }
+   .about-artist{
+     display: grid;
+     grid-template-columns: 20% 80%;
+   }
+   .img-arttist{
+     width: 50px;
+     height: 50px;
+     
+   }
+   .img-arttist img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+   }
+   .info-artist{
+     margin-left: 30px;
+   }
+   .info-artist .name-artist{
+    font-family: ll-unica77, "Helvetica Neue", Helvetica, Arial, sans-serif;     font-size: 16px;
+     font-weight: 600;
+     padding-top: 7px;
+   }
+   .info-artist p{
+     font-size: 14px;
+     color: #848383;
+     margin-top: 4px;
+   }
+   .button-follow {
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     font-weight: normal;
+     text-align: center;
+     border: 1px solid rgb(0, 0, 0);
+     text-decoration: none;
+     transition: color 0.25s ease 0s, border-color 0.25s ease 0s,
+       background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+     height: 30px;
+     border-radius: 15px;
+     padding-left: 25px;
+     padding-right: 25px;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     display: inline-flex;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     margin-top: 10px;
+   }
+   .button-follow:hover {
+     background-color: #000;
+     color: #ffff !important;
+   }
+   .button-follow a:hover{
+      color: #fff;
+   }
+   .exhibition-section{
+     padding: 25px 30px;
+     border: 1px solid #d7d5d5;
+   }
+   .title_exhibition-section{
+     font-size: 16px;
+     margin-top: 0px;
+   }
+   .purchase-art_section{
+     padding-left: 50px;
+     margin-top: 20px;
+   }
+   .info-purchase_art .name-artist{
+     margin-top: 10px ;
+     font-size: 25px;
+     color: #8c8b8b;
+     line-height: 30px;
+   }
+   .info-purchase_art .name-exhibition{
+    font-family: "Playfair Display", serif;
+     font-size: 34px;
+     font-weight: 500;
+     margin-top: 10px;
+   }
+   .masterial, 
+   .size, 
+   .rarity{
+     padding-top: 20px;
+     font-size: 16px;
+     color: #8e8e8e;
+     line-height: 10px;
+   }
+   .price{
+    margin-top: 20px;
+     font-size: 35px;
+     font-weight: 500;
+   }
+   .button_purchase-sec{
+     display: flex;
+     flex-direction: column;
+
+   }
+   .button_purchase-sec a{
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     font-weight: normal;
+     text-align: center;
+     border: 1px solid rgb(0, 0, 0);
+     text-decoration: none;
+     transition: color 0.25s ease 0s, border-color 0.25s ease 0s,
+       background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+     height: 30px;
+     border-radius: 20px;
+    padding: 10px 15px;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     display: inline-flex;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     margin-top: 50px;
+     
+   }
+   .shipping-info{
+     margin-top: 50px;
+     padding-top: 40px;
+     border-top: 1px solid #c7c6c6;
+     line-height: 15px;
+   }
+   .shipping-info h4{
+    margin-bottom: 20px;
+  }
+   .shipping-info p{
+     margin: 0;
+     font-size: 14px;
+     color: #848383;
+
+   }
+   .other-artist{
+     margin-top: 60px;
+     
+   }
+   .info-other_artist .about-list_artist{
+     display: flex;
+     flex-direction: column;
+   }
+   .title_other-artist{
+     display: flex;
+     justify-content: space-between;
+   }
+   .title_other-artist h3{
+     font-size: 25px;
+   }
+   .viewmore{
+     cursor: pointer;
+     font-size: 14px;
+     color: #848383;
+     margin-top: 30px;
+   }
+   .viewmore:hover{
+    color: #b89d4f;
+   }
+   .about-list_artist .artist-section{
+     padding: 10px 15px;
+     border-radius: 2px;
+   }
+   #offer-button
+   {
+    height: 50px;
+     background-color: #000;
+     color: #fff;
+     border-radius: 35px;
+   }
+   #offer-button:hover{
+     background-color: #fff;
+     color: #000;
+   }
+   
+   .other-artwork{
+     margin-top: 30rem;
+   }
+   .list-works{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     column-gap: 30px;
+   }
+   .title_other-artwork{
+     display: flex;
+     justify-content: space-between;
+   }
+   .title_other-artwork h2{
+     font-size: 30px;
+     padding-bottom: 30px;
+   }
+   .title_other-artwork a{
+     margin-top: 30px;
+     font-size: 14px;
+     color: #8e8e8e;
+   }
+   .title_other-artwork a:hover{
+     color: #b89d4f;
+   }
+
+
+   .customOverlay {
+    background-color: rgb(112, 112, 112);
+  }
+  
+  .customModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .customModal h2 {
+    margin-top: 0;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modalContent {
+    font-family: Arial, sans-serif;
+  }
+  
+  .modalContent p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .modalContent p strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .information {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .closeButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .closeButton:hover {
+    background-color: #333;
+  }

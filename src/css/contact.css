@@ -1,0 +1,118 @@
+.contact-page{
+  padding: 0 90px;
+  height: 10px;
+}
+.title-contact_page {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  font-size: 100px;
+  line-height: 90px;
+  color: #000000;
+  letter-spacing: -7.5px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: left;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  max-height: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  text-align: center;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.top-page {
+  text-align: center;
+  padding:  0px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.demo-page {
+  font-size: 16px;
+  color: #3a3939;
+  max-width: 550px;
+  text-align: center;
+}
+
+.demo-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content-contact_page {
+  display: flex;
+  align-items: center;
+}
+.img-contact{
+  width: 600px;
+  height: 700px;
+  margin-left: 30px;
+}
+.img-contact img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content_contact {
+  margin-left: 70px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#name, #subject [type="text"],
+#email[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.butcontact[type="submit"] {
+  background-color: #b89d4f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.butcontact[type="submit"]:hover {
+  background-color: #333;
+}
+.main-content_contact{
+  width: 400px;
+}
+.time-event-contact {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 30px;
+  color: #b89d4f;
+}
+
+.time-event-contact h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.time-event-contact p{
+  margin :0;
+}

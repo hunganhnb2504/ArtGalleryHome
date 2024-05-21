@@ -1,0 +1,280 @@
+.artwork-page{
+  height: 450vh;
+}
+.ListArt_page{
+  height: 100vh;
+  padding: 0 70px;
+}
+.ListArt_page h3{
+  margin-top: 50px;
+  font-size: 27px;
+}
+.mnbvc, .button_add-product, .view-more_art{
+  text-decoration: none;
+  color: #000000;
+}
+.title-art_page {
+display: inline-block;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+white-space: normal;
+font-size: 100px;
+line-height: 90px;
+color: #000000;
+letter-spacing: -7.5px;
+visibility: inherit;
+transition: none 0s ease 0s;
+text-align: left;
+border-width: 0px;
+margin: 0px;
+padding: 0px;
+min-height: 0px;
+max-height: none;
+opacity: 1;
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+transform-origin: 50% 50% 0px;
+text-align: center;
+text-align: center;
+padding-bottom: 16px;
+}
+.top-page {
+text-align: center;
+padding:  0px 70px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 400px;
+}
+.demo-page {
+font-size: 16px;
+color: #3a3939;
+max-width: 550px;
+text-align: center;
+}
+.main-content_page {
+  padding: 0px 70px;
+}
+.title-section{
+  color: #303030;
+text-decoration: none;
+font-size: 23px;
+text-transform: uppercase;
+transition: all 200ms ease;
+display: block;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+font-variation-settings: "slnt" 0;
+letter-spacing: 1px;
+margin-bottom: 30px;
+}
+.top-section{
+  display: flex;
+  justify-content: space-between;
+}
+.view-more_art{
+  font-size: 16px;
+  color: #434141;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 20px;
+}
+.view-more_art:hover{
+  color: #908f8f;
+}
+.art-section{
+margin-top: 160px;
+}
+.content-section{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 160px;
+}
+.card-art_home{     
+  width: 300px;
+  height: 320px;
+}
+.card-art_home img{
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;       
+
+}
+.card-art_home img:hover{
+  transform: scale(1.1); 
+
+}
+.card-art_home a{
+ cursor: pointer;
+}
+
+.name-artist_carousel{
+  font-family: "Playfair Display", serif;
+  color: #908f8f;
+ font-weight: 200;
+  font-size: 100%;
+ letter-spacing: 0;
+ padding: .25rem 0.5rem;
+ margin-bottom: 0;
+}
+.exhibition{
+ font-weight: 500;
+ font-size: 25px;
+ margin: 0px 0 12px;
+ padding-left: .5rem;
+}
+.price-art_carousel{
+  padding-left: .5rem;
+  color: rgba(184, 157, 79, 1);
+  font-size: 100% ;
+ display: block;
+ transition: all 120ms ease;
+}
+.button_add-product{
+
+  text-transform: uppercase;
+  padding-left: .5rem;
+  font-size: 85% ;
+  text-decoration: none;
+  color: rgba(184, 157, 79, 1);
+ letter-spacing: 0px;
+ -webkit-transition: all 120ms ease;
+ transition: all 120ms ease;
+ opacity: 0;
+ position: relative;
+ display: block;
+ margin-top: -1rem;
+ -webkit-transform: translateY(100%);
+ transform: translateY(100%);
+}
+.price-art_carousel {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.button_add-product {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  transform: translateY(100%);
+}
+
+.card-art_home:hover .price-art_carousel {
+  opacity: 0;
+}
+
+.card-art_home:hover .button_add-product {
+  opacity: 1;
+  transform: translateY(0);
+}
+#Comtemporary-sec{
+  margin-top: 0px;
+}
+
+/* FITER SECTION */
+/* Phần chung */
+.tag-filter {
+  display: flex;
+  padding-left: 70px;
+  gap: 10px;
+}
+
+.tag {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #e3e2e2;
+  position: relative;
+}
+
+.tag:hover {
+  background-color: #e0e0e0;
+}
+
+/* Ẩn sidebar và checkbox ban đầu */
+.sidebar,
+.checkbox-container {
+  display: none;
+}
+
+/* Hiển thị sidebar và checkbox khi trỏ chuột vào tag */
+.tag:hover .sidebar,
+.tag:hover .checkbox-container {
+  display: block;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dedddd;
+  border-radius: 5px;
+  z-index: 1;
+  width: 15rem; 
+  height: auto; 
+ 
+}
+
+.checkbox-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.checkbox-item{
+  line-height: 30px;
+}
+.checkbox-item label{
+  padding-left: 10px;
+}
+/* Phần Price */
+#tag-price {
+  cursor: pointer;
+  position: relative;
+  
+}
+
+#price-slider {
+  width: 100%;
+}
+
+/* Phần thanh trượt */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}

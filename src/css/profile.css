@@ -1,0 +1,130 @@
+.btn-1,
+.btn-1 *,
+.btn-1 :after,
+.btn-1 :before,
+.btn-1:after,
+.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-1 {
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border-radius: 99rem;
+  border-width: 0.2px;
+  padding: 0.8rem 3rem;
+  transition: 0.2s ease;
+}
+
+.btn-1:hover {
+  background-color: black;
+  color: #fff;
+}
+.hero {
+  overflow: hidden;
+}
+    
+    .passet-page, .ko{
+  margin: 50px 130px;
+}
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+.hero-content {
+  flex: 1;
+  width: 600px;
+  margin: 0px 25px;
+}
+.hero-content .cto {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.hero-content .poi {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #000;
+}
+.hero-content .cta-button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 99rem;
+  border-width: 2px;
+}
+.hero-content .btn-1 {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 99rem;
+  border-width: 2px;
+}
+.hero-content .btn-1:hover {
+  background-color: #1023d7;
+  color: #fff;
+}
+.hero-content .cta-button:hover {
+  background-color: #1023d7;
+  color: #fff;
+}
+.hero-image {
+  flex: 1;
+  width: 600px;
+  margin: auto;
+}
+.igh {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.input-row{
+  margin: 30px 0;
+  width: 30rem;
+  border-radius: 2px;
+
+}
+.ttt {
+  padding: 15px ;
+  width: 100%;
+  height: 3.5rem;
+}
+.button-edit_pass1{
+  margin-left: 33%;
+}
+.button-edit_pass2{
+  background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    padding: 15px 25px !important;
+    border-radius: 22px;
+    margin-left: 35%;
+}
+.button-edit_pass2:hover{
+  background-color: #5f5e5e;
+}

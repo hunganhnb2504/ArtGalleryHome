@@ -1,0 +1,206 @@
+.artist-page{
+     max-height: 350vh;
+}
+.listArtist-page{
+  padding: 0 70px;
+  height: 100vh;
+  
+}
+.top-page h3{
+  margin-top: 50px;
+     font-size: 27px;
+     text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.title-artist_page {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  font-size: 100px;
+  line-height: 90px;
+  color: #000000;
+  letter-spacing: -7.5px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: left;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  max-height: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  text-align: center;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.top-page {
+  text-align: center;
+  padding:  0px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.demo-page {
+  font-size: 16px;
+  color: #3a3939;
+  max-width: 550px;
+  text-align: center;
+}
+.carousel-controls {
+  max-width: 1280px;
+  margin-top: 120px;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carousel-controls i {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #e6e0e0;
+}
+
+.carousel-controls i:hover {
+  color: #b89d4f;
+}
+.content-section_home {
+  position: relative;
+}
+.card-art_home {
+
+  width: 210px;
+  height: 260px;
+}
+.multiple-items {
+  display: flex;
+}
+.multiple-items div {
+  margin: 0 10px;
+}
+.multiple-items img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.42);
+}
+.card-artist {
+  width: 210px;
+  height: 260px;
+}
+.main-artist {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.artist-info p {
+  color: #908f8f;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.button-follow {
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+  font-weight: normal;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.25s ease 0s, border-color 0.25s ease 0s,
+    background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.button-follow:hover {
+  background-color: #000000;
+  color: #ffff;
+  border: 1px solid #b89d4f;
+}
+.multiple-items2 {
+  display: flex;
+}
+
+.multiple-items2 div {
+  margin: 0 10px;
+}
+.multiple-items2 img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.42);
+}
+.main-content_page {
+  padding: 0px 70px;
+}
+.title-section{
+     color: #303030;
+  text-decoration: none;
+  font-size: 23px;
+  text-transform: uppercase;
+  transition: all 200ms ease;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.top-section{
+     display: flex;
+     justify-content: space-between;
+}
+.view-more_artist{
+     font-size: 16px;
+     color: #434141;
+     cursor: pointer;
+     text-align: center;
+     padding-top: 20px;
+}
+.view-more_artist:hover{
+     color: #908f8f;
+}
+.artists-section{
+     margin-bottom: 120px;    
+}
+.slick-list{
+     height: 380px;
+}
+.section-content_artist{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     column-gap: 20px;
+     row-gap: 100px;
+}
+.section-content_artist .card-artist{
+     padding-left: 0px;
+     width:280px ;
+}
+.section-content_artist .card-artist img{
+     width: 100%;
+     box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.42);
+
+}

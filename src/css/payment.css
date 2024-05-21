@@ -1,0 +1,214 @@
+.Payment-page{
+     padding: 100px 70px;
+     font-family: "Playfair Display", serif;
+     max-height: 10vh;
+}
+.main-payment_page{
+     /* margin-left: 300px;     */
+    margin-top: 45px;
+     display: grid;
+     grid-template-columns: 60% 35% ;
+     column-gap: 50px; 
+}
+.auction-steps_payment {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     column-gap: 50px;
+   }
+   .auction-steps_payment a {
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     color: #c8c6c6;
+      border-bottom: 1px solid #c8c6c6;  
+      padding-bottom: 10px;   
+   }
+   #payment{
+     cursor: pointer;
+     color: #000;
+     border-bottom: 1px solid #000;  
+     
+   }
+   .auction-steps_payment h3 {
+     margin: 0;
+     font-size: 20px;
+     font-weight: 600;
+   }
+   #h3-payment{
+    color: #343434;
+   }
+   /* .auction-steps_payment  #offer, .auction-steps_payment #shipping{
+      border-bottom: ;
+   } */
+   .auction-steps_payment  #offer h3, .auction-steps_payment #shipping h3,
+   .auction-steps_payment  #offer i, .auction-steps_payment #shipping i
+   {
+    color: #c8c6c6;
+   }
+      .auction-content {
+     flex: 3;
+     padding: 20px;
+   }
+   .auction-content h2{
+     font-size: 28px;
+     font-weight: 600;
+   }
+   .main-shipping_page{
+     display: grid;
+     grid-template-columns: 60% 35% ;
+     column-gap: 50px;
+   }
+   .offer-order_payment{
+     
+ height:35rem ;
+     margin-top: 5rem;
+     margin-bottom: 20px;
+     padding: 40px;
+     border: 1px solid #e6e7f5;
+     width: auto;
+     letter-spacing: 0.5px;
+   }
+   .info-art img{
+     width: 70px;
+     height: 50px;
+   }
+   .info-art{
+     line-height: 30px;
+     padding-bottom: 30px;
+   }
+   .name-artist{
+     color: #989797;
+     font-size: 15px;
+     font-weight: 500;
+   }
+   .exhibition-payment{
+     font-size: 22px;
+     font-weight: 500;
+     padding-left: 0;
+   }
+   .address{
+     font-size: 14px;
+   }
+   .info-order{
+     padding-top: 30px;
+     border-top: 1px solid #e6e7f5 ;
+   }
+   .info-order{
+     line-height: 40px;
+   }
+   .info-order_item{
+     color: #989797;
+     display: flex;
+     justify-content: space-between;
+   }
+   #total-item{
+     color: #000;
+     font-size: 16px;
+     font-weight: 600;
+   }
+   .payment-method{
+     border: 1px solid #c8c6c6;
+   }
+   .payment-method div{
+     padding: 20px;
+     border-top: 1px solid #c8c6c6;
+     ;
+   }
+   .payment-detail{
+     margin-top: 60px;
+   }
+   .payment-detail h3{
+     font-size: 23px;
+     font-weight: 600;
+   }
+   .payment-detail input[type="text"],
+.payment-detail input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.payment-method{
+  border: 1px solid #c8c6c6;
+}
+.payment-method div{
+  padding: 20px;
+  border-top: 1px solid #c8c6c6;
+  ;
+}
+.payment-detail{
+  margin-top: 60px;
+}
+.payment-detail h3{
+  font-size: 23px;
+  font-weight: 600;
+}
+.payment-detail input[type="text"],
+.payment-detail input[type="tel"] {
+width: 100%;
+padding: 10px;
+margin: 15px 0 20px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.payment-detail input[type="text"]::placeholder,
+.payment-detail input[type="tel"]::placeholder {
+color: #aaa;
+}
+
+.payment-detail input[type="text"]:focus,
+.payment-detail input[type="tel"]:focus {
+outline: none;
+border-color: #4a90e2;
+}
+
+.payment-detail label {
+font-weight: bold;
+}
+
+.payment-detail p {
+margin-bottom: 15px;
+}
+
+.payment-detail a {
+color: #4a90e2;
+text-decoration: none;
+}
+
+.payment-detail a:hover {
+text-decoration: underline;
+}
+.next-offer{
+  cursor: pointer;
+ position: relative;
+ white-space: nowrap;
+ font-weight: normal;
+ text-align: center;
+ border: 1px solid rgb(0, 0, 0);
+ text-decoration: none;
+ transition: color 0.25s ease 0s, border-color 0.25s ease 0s, background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+ height: 50px;
+ border-radius: 25px;
+ padding-left: 25px;
+ padding-right: 25px;
+ background-color: rgb(0, 0, 0);
+ text-decoration: none;
+ color: #ffff;
+ width: 50%;
+ display: inline-flex;
+ -webkit-box-align: center;
+ align-items: center;
+ -webkit-box-pack: center;
+ justify-content: center;
+ margin-top: 40px;
+ margin-left: 10rem;
+}
+.next-offer:hover{
+   background-color: #ffff;
+   color: #000;
+}

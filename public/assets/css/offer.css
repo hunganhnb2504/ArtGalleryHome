@@ -1,0 +1,179 @@
+.Offer-page {
+     padding: 40px 70px;
+     font-family: "Playfair Display", serif;
+
+   }
+   #offer, #shipping, #payment, .next-offer{
+    text-decoration: none;
+  }
+   .auction-steps {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     column-gap: 30px;
+   }
+.auction-steps a {
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     color: #c8c6c6;
+      border-bottom: 1px solid #c8c6c6;  
+      padding-bottom: 10px;   
+   }
+   #offer{
+     color: #000;
+     border-bottom: 1px solid #000;  
+     
+   }
+   .auction-steps h3 {
+     margin: 0;
+     font-size: 20px;
+     font-weight: 600;
+   }
+      .auction-content {
+     flex: 3;
+     padding: 20px;
+   }
+   .auction-content h2{
+     font-size: 28px;
+     font-weight: 600;
+   }
+   .main-offer_page{
+     display: grid;
+     grid-template-columns: 60% 35% ;
+     column-gap: 50px;
+   }
+   .table-offer {
+     margin-top: 20px;
+   }
+   .table-offer h3{
+     font-size: 15px;
+   }
+   .list-offer{
+     border: 1px solid #ccc;
+
+   }
+   .list-offer label {
+     display: flex;
+     padding: 0 15px 15px 15px;
+     border-bottom: 1px solid #ccc;
+     font-size: 15px;
+     cursor: pointer;
+   }
+   
+   .text{
+     padding-left: 25px;
+   }
+   #different-option{
+     padding-left: 25px;
+
+   }
+   #diff-op, #custom-price label{
+     border-bottom: none;
+   }
+   #custom-price{
+     margin-top: 20px;
+   }
+   #custom-price input{
+     width: 20rem;
+     height: 30px;
+   }
+   .info-message{
+     margin-top: 10px;
+     padding: 20px;
+     background-color: rgb(244, 244, 224);
+     font-size: 14px;
+   }
+   #note-input{
+     margin-top: 40px;
+   }
+   #note-input input{
+     margin-top: 20px;
+     width: 100%;
+     height: 5rem;
+     font-size: 15px;
+     padding-left: 20px;
+   }
+   .offer-binding{
+     margin-top: 40px;
+     padding: 10px 12px;
+     background-color: #e6e7f5;
+     font-size: 14px;
+   }
+   .offer-binding p{
+     margin: 3px;
+   }
+   .next-offer{
+     cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.25s ease 0s, border-color 0.25s ease 0s, background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 10rem;
+    color: #ffff;
+   }
+   
+   .next-offer:hover{
+      background-color: #ffff;
+      color: #000;
+   }
+   
+   .offer-order{
+     height:25rem ;
+     margin-top: 9rem;
+     padding: 40px;
+     border: 1px solid #e6e7f5;
+     width: auto;
+     letter-spacing: 0.5px;
+   }
+   .info-art img{
+     width: 70px;
+     height: 50px;
+   }
+   .info-art{
+     line-height: 30px;
+     padding-bottom: 30px;
+   }
+   .name-artist{
+     color: #989797;
+     font-size: 15px;
+     font-weight: 500;
+   }
+   .exhibition{
+     font-size: 16px;
+     font-weight: 600;
+   }
+   .address{
+     font-size: 14px;
+   }
+   .info-order{
+     padding-top: 30px;
+     border-top: 1px solid #e6e7f5 ;
+   }
+   .info-order{
+     line-height: 40px;
+   }
+   .info-order_item{
+     color: #989797;
+     display: flex;
+     justify-content: space-between;
+   }
+   #total-item{
+     color: #000;
+     font-size: 16px;
+     font-weight: 600;
+   }

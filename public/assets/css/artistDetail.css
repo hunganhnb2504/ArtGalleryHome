@@ -1,0 +1,57 @@
+.artistDetail-page{
+     padding: 100px 70px;
+     height: 10vh;
+}
+.content-artist{
+     display: grid;
+     grid-template-columns: 40% 60%;
+     column-gap: 50px;
+     padding-bottom: 50px;
+     border-bottom: 1px solid #dedddd;
+}
+.img-artist img{
+     width: 100%;
+     height: 100%;
+     border-radius: 2px;
+     box-shadow: 1.25rem 1.375rem 4.75rem 0 rgba(0,0,0,.42)!important;
+
+}
+.name-artist{
+     font-size: 30px;
+     font-family: "Playfair Display", serif;
+     margin-bottom: 10px;
+     margin-top: 30px;
+}
+.more-info{
+     margin: 0 0 40px 0;
+     color: #979595;
+     font-size: 17px;
+}
+.button-follow{
+     margin-right: 10px;
+}
+.artist-style{
+     margin-top: 30px;
+     font-size: 18px;
+     line-height: 25px;
+}
+.artist-biography,
+.other-artwork{
+     margin-top: 60px;
+}
+.artist-biography div{
+     margin-top: 25px;
+     font-size: 18px;
+     line-height: 25px;
+}
+.title_other-artwork{
+     display: flex;
+     justify-content: space-between;
+}
+.title_other-artwork a{
+     text-decoration: none;
+     color: black;
+}
+.title_other-artwork a:hover{
+     color: #979595;
+}

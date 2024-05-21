@@ -1,0 +1,185 @@
+
+    .events-page{
+     font-family: "Playfair Display", serif;
+     height: 300vh;
+     max-width: 100%;
+     padding: 40px 70px ;
+     cursor: pointer;
+    }
+    .listEvent-page{
+      margin: 30px 70px;
+      height: 200vh;
+    }
+    a{
+      text-decoration: none;
+      color: #000000;
+    }
+    .title-event_page {
+     position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 200px;
+    }
+    .vertical-line {
+    border: solid 0.5px rgba(184, 157, 79, 1);;
+     position: absolute;
+     bottom: -145px; 
+     left: 50%;
+     transform: translateX(-50%);
+     height: calc(80% ); 
+   }
+    .title-event_page h1 {
+     display: inline-block;
+     font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     white-space: normal;
+     font-size: 80px;
+     line-height: 90px;
+     color: #000000;
+     letter-spacing: -7.5px;
+     visibility: inherit;
+     transition: none 0s ease 0s;
+     text-align: left;
+     border-width: 0px;
+     margin: 0px;
+     padding: 0px;
+     min-height: 0px;
+     max-height: none;
+     opacity: 1;
+     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+     transform-origin: 50% 50% 0px;
+     text-align: center; 
+     margin-top: 50px;
+     margin-bottom: 0px;
+    }
+    .main-featured_event{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 30px;
+    }
+    .img-featured{
+     width: 570px;
+     height: 650px;
+     margin-left: 30px;
+    }
+    
+    .img-featured img{
+     width: 100%;
+     height: 100%;
+     box-shadow: 1.25rem 1.375rem 4.75rem 0 rgba(0,0,0,.42)!important;
+     border-radius: 2px;
+    }
+    .title-event{
+      color: #c5b072;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 3px;
+    }
+    .name-event{
+      font-size: 6rem;
+      margin-top: 0;
+    }
+    .preface-event{
+      font-size: 1.5rem;
+    margin-bottom: 4rem;
+    line-height: 1.75;
+    margin: 0 0 30px;
+    }
+    .info-event{
+      line-height: 1.8;
+      margin-bottom: 100px;
+    }
+    .content-featured{
+      margin-top: 50px;
+    }
+    .content-featured .viewmore{
+      margin-top: 80px;
+      color: #c5b072;
+    }
+    .viewmore i{
+      margin-left: 10px;
+    }
+    .main-now_event{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 30px;
+    }
+    .card-event{
+      margin-bottom: 80px;
+    }
+    .img-event_card{
+      margin-bottom: 30px;
+      width: 274px;
+      height: 274px;
+      cursor: pointer;
+border-radius: 5px;    }
+    .img-event_card img{
+      transition: transform 0.3s ease; 
+      width: 100%;
+      height: 100%;
+      box-shadow: 1.25rem 1.375rem 2.75rem 0 rgba(0, 0, 0, .42) !important;
+    }
+    .img-event_card img:hover{
+      transform: scale(1.1); 
+
+    }
+    .now-event_section{
+      margin-top: 100px;
+    }
+    .name-event_card{
+      font-weight: 400 !important;
+    font-size: 150% !important;
+    padding: 0 !important;
+    margin: 3rem 0 .5rem !important;
+    text-align: center;
+    letter-spacing: 0;
+    }
+    .time-event_card{
+      font-family: "Montserrat", sans-serif;      
+      font-size: .85rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-align: center !important;
+    color: #c5b072;
+    }
+    .img-future_event{
+      width: 1250px;
+      height: 370px;
+    }
+    .img-future_event img{
+      width: 100%;
+      height: 100%;
+    }
+    .card-future_event{
+      padding: 30px 0 30px;
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      column-gap: 30px;
+      border-bottom: 1px solid #e1dfdf;
+   }
+   .more-event{
+    margin-top: 40px;
+   }
+   .more-event a{
+    padding: 1.062em 3.8em;
+    border-radius: 40px;
+         border: 1px solid #f1f1f1;
+     text-align: right;
+   }
+   .more-event a:hover{
+    background: #000000;
+    color: #fff;
+   }
+   .name-future_event{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+   }
+   .time-future_event{
+    color: #afabab;
+    font-family: "Montserrat", sans-serif;      
+    font-size: 13px;
+   }

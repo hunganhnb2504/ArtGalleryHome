@@ -1,0 +1,139 @@
+.btn-1,
+.btn-1 *,
+.btn-1 :after,
+.btn-1 :before,
+.btn-1:after,
+.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-1 {
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border-radius: 99rem;
+  border-width: 0.2px;
+  padding: 0.8rem 3rem;
+  transition: 0.2s ease;
+}
+
+.btn-1:hover {
+  background-color: #1023d7;
+  color: #fff;
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border: 2px solid #007bff;
+}
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #007bff;
+}
+.header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #555;
+}
+.header button {
+  margin-left: auto;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.header button:hover {
+  background-color: #0056b3;
+}
+.artworks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.artwork {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.artwork:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.artwork img {
+  width: 100%;
+  height: auto;
+}
+.artwork-details {
+  padding: 15px;
+}
+.artwork-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: #333;
+}
+.artwork-details p {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: #777;
+}
+.artwork-price {
+  font-size: 14px;
+  color: #28a745;
+}
+.artwork-price.sold {
+  color: #dc3545;
+}
+.icon {
+  font-size: 17px; /* Kích thước của icon */
+  color: #5bafdf; /* Màu sắc ban đầu của icon */
+  cursor: pointer;
+  transition: color 0.1s; /* Hiệu ứng chuyển màu */
+  margin-left: 100px;
+}
+
+.icon-button {
+  padding: 0; /* Loại bỏ padding */
+  border: none; /* Loại bỏ viền */
+  background: none; /* Loại bỏ nền */
+  display: inline-flex; /* Sử dụng inline-flex để căn chỉnh icon */
+  align-items: center; /* Căn giữa icon theo chiều dọc */
+  justify-content: right; /* Căn giữa icon theo chiều ngang */
+}
+
+.icon-button .icon {
+  font-size: 1em; /* Đặt kích thước icon, điều chỉnh theo ý bạn */
+}

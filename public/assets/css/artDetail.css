@@ -1,0 +1,278 @@
+.ArtDetail-page{
+     padding: 70px 70px;
+     max-height:30rem ;
+}
+.name-artist, .mlb, .viewmore, .button_add-product{
+  text-decoration: none;
+}
+.about-artwork{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 30px;
+     margin-left: 40px;
+}
+.info-art_section{
+     width:  37rem;
+     height: 50rem;
+}
+.img-art{
+     display: grid;
+     grid-template-rows: 95% 5%;
+     margin-left: 20px;
+}
+
+.img-art .anhgb{
+     width: 100%;
+     height: 100%;
+     box-shadow: 3px 3px 6px 0 rgba(0,0,0,.42);
+
+}
+.otherServices{
+     display: flex;
+     justify-content: space-between;
+     padding: 0 13rem;
+}
+.otherServices .bonhai{
+     cursor: pointer;
+     border: none;
+     background-color: #fff;
+     letter-spacing: 2px;
+}
+.otherServices .bonhai:hover{
+     color: rgb(184, 162, 17);
+}
+.otherServices .bonhai i{
+     margin-right: 5px;
+}
+.about_art-detail{
+     margin-top: 50px;
+}
+.tablinks{
+     font-weight: 500;
+     font-size: 20px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #8e8e8e;
+}
+.content-tab_art,
+.artist-section{
+     
+     margin-top: 20px;
+     padding: 10px 40px;
+     border: 1px solid #d7d5d5;
+     border-radius: 1px;
+}
+.tabcontent .ecutre, .content_exhibition .ecutre {
+     margin-bottom: 10px;
+     display: flex;
+     align-items: center;
+   }
+   
+   .tabcontent .fosan, .content_exhibition .fosan {
+     font-weight: 600;
+     flex: 0 0 150px; 
+   }
+   
+   .tabcontent .gozila , .content_exhibition .gozila{
+     font-size: 14px;
+     margin-left: 10rem;
+     flex: 1; 
+   }
+   .artist-section{
+     padding: 25px 30px;
+     display: flex;
+     justify-content: space-between;
+   }
+   .about-artist{
+     display: grid;
+     grid-template-columns: 20% 80%;
+   }
+   .img-arttist{
+     width: 50px;
+     height: 50px;
+     
+   }
+   .img-arttist .anhgbc{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+   }
+   .info-artist{
+     margin-left: 30px;
+   }
+   .info-artist .name-artist{
+    font-family: "Playfair Display", serif;
+     font-size: 16px;
+     font-weight: 600;
+     padding-top: 7px;
+   }
+   .info-artist .fdsghj{
+     font-size: 14px;
+     color: #848383;
+     margin-top: 4px;
+   }
+   .button-follow {
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     font-weight: normal;
+     text-align: center;
+     border: 1px solid rgb(0, 0, 0);
+     text-decoration: none;
+     transition: color 0.25s ease 0s, border-color 0.25s ease 0s,
+       background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+     height: 30px;
+     border-radius: 15px;
+     padding-left: 25px;
+     padding-right: 25px;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     display: inline-flex;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     margin-top: 10px;
+   }
+   .button-follow:hover {
+     color: #b89d4f;
+     border: 1px solid #b89d4f;
+   }
+   .exhibition-section{
+     padding: 25px 30px;
+     border: 1px solid #d7d5d5;
+   }
+   .title_exhibition-section{
+     font-size: 16px;
+     margin-top: 0px;
+   }
+   .purchase-art_section{
+     padding-left: 50px;
+   }
+   .info-purchase_art .name-artist{
+     margin-top: 10px ;
+     font-size: 25px;
+     color: #8c8b8b;
+   }
+   .info-purchase_art .name-exhibition{
+    font-family: "Playfair Display", serif;
+     font-size: 34px;
+     font-weight: 500;
+     margin-top: 10px;
+   }
+   .masterial, 
+   .size, 
+   .rarity{
+     padding-top: 10px;
+     font-size: 16px;
+     color: #8e8e8e;
+     line-height: 10px;
+   }
+   .price{
+     font-size: 35px;
+     font-weight: 600;
+   }
+   .button_purchase-sec{
+     display: flex;
+     flex-direction: column;
+
+   }
+   .button_purchase-sec .mlb{
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     font-weight: normal;
+     text-align: center;
+     border: 1px solid rgb(0, 0, 0);
+     text-decoration: none;
+     transition: color 0.25s ease 0s, border-color 0.25s ease 0s,
+       background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+     height: 30px;
+     border-radius: 20px;
+    padding: 10px 15px;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     display: inline-flex;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     margin-top: 20px;
+     
+   }
+   .shipping-info{
+     margin-top: 30px;
+     padding-top: 20px;
+     border-top: 1px solid #c7c6c6;
+     line-height: 12px;
+   }
+   .shipping-info .pehatnb{
+     margin: 0;
+     font-size: 14px;
+     color: #848383;
+
+   }
+   .other-artist{
+     margin-top: 60px;
+     
+   }
+   .info-other_artist .about-list_artist{
+     display: flex;
+     flex-direction: column;
+   }
+   .title_other-artist{
+     display: flex;
+     justify-content: space-between;
+   }
+   .title_other-artist .hatbana{
+     font-size: 25px;
+   }
+   .viewmore{
+     cursor: pointer;
+     font-size: 14px;
+     color: #848383;
+     margin-top: 30px;
+   }
+   .viewmore:hover{
+    color: #b89d4f;
+   }
+   .about-list_artist .artist-section{
+     padding: 10px 15px;
+     border-radius: 2px;
+   }
+   #offer-button
+   {
+     background-color: #000;
+     color: #fff;
+   }
+   #offer-button:hover{
+     background-color: #fff;
+     color: #000;
+   }
+   /* #purchase-button:hover {
+    background-color: #fff;
+    co
+   } */
+   .other-artwork{
+     margin-top: 10rem;
+   }
+   .list-works{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     column-gap: 30px;
+   }
+   .title_other-artwork{
+     display: flex;
+     justify-content: space-between;
+   }
+   .title_other-artwork .hathainm{
+     font-size: 30px;
+     padding-bottom: 10px;
+   }
+   .title_other-artwork .mlb{
+     margin-top: 30px;
+     font-size: 14px;
+     color: #8e8e8e;
+   }
+   .title_other-artwork .mlb:hover{
+     color: #b89d4f;
+   }
